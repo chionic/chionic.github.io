@@ -31,18 +31,18 @@
 
 <div class = "content" style="position: absolute; top: 25%; left: 27%;">
 <div class="contentModuleHeader">World Turtle Dreams Post Mortem</div>
-
-<br>Project Name: World Turtle Dreams Game
-<br>Project type: Processing Game Project
-<br>Time Frame: 25/6/2017 – 4/7/2017
-
+<p>
+<br><strong>Project Name: World Turtle Dreams Game</strong>
+<br><strong>Project type: Processing Game Project</strong>
+<br><strong>Time Frame: 25/6/2017 – 4/7/2017</strong>
+</p>
 
 <p>This was a game I created as my first entry for #1GAM (One Game a Month). I started it very late in the month and so tried to keep it small and manageable for the time frame I had. I wanted to recreate and improve on one of my favourite flash games from my childhood – Jelly Blobs of Doom. I chose the Processing language for this project because I was already familiar with it from my college studies and it was a language I could prototype in quickly. </p>
 <p>First, I boiled the game down to a few core components that I really wanted it to have:
-<ul><li>-The screen should wrap around. If the player ran off the left side of the playing field they’d reappear on the right side as if they were on a giant moebius strip.</li>
-<li>-The player character should be controlled by the w/a/s/d keyboard keys. The player should be able to play one handed, at no point should they require a mouse.</li>
-<li>-The player should glide across the screen, their speed would decrease and increase slowly.</li>
-<li>-The player would have to eat smaller circles (later clouds) to get bigger while avoiding larger circles that could swallow them up.</li>
+<ul><li>The screen should wrap around. If the player ran off the left side of the playing field they’d reappear on the right side as if they were on a giant moebius strip.</li>
+<li>The player character should be controlled by the w/a/s/d keyboard keys. The player should be able to play one handed, at no point should they require a mouse.</li>
+<li>The player should glide across the screen, their speed would decrease and increase slowly.</li>
+<li>The player would have to eat smaller circles (later clouds) to get bigger while avoiding larger circles that could swallow them up.</li>
 </ul>
 </p>
 
@@ -54,19 +54,19 @@
 </ul>
 </p>
 <p>Initially I wanted to release the game on Windows as a standalone .exe file. After considering different options I chose to make a web version as well because this would make my game more accessible.</p>
-<p><h5>The Good:</h5>
+<p><h3>The Good:</h3>
 <ul><li>The actual plan for the game was very manageable even with my limited experience and time.</li>
 <li>I managed to get all the features I wanted into the game and even improve on the game I based it on, creating powerups to add some extra entertainment to the rather slow early game.</li>
 <li>The final collision script works very well.</li>
 <li>I like the way the pixel art turned out, especially since it was my first time making pixel art.</li></ul>
 </p>
 
-<p><h5>The Bad:</h5>
+<p><h3>The Bad:</h3>
 <ul><li>I had some difficulty creating a web version of the game. I used Processing.js to create a javascript version of the processing script. I had never used Processing.js and a lot of the quirks of porting the game gave me some trouble. Read a more in-depth analysis of the exact problems and how I fixed/worked around them here.</li>
 <li>My initial attempts at writing a collision script were less than successful. I tried defining the player character in terms of an arrayList of points and then checked each frame if any point of the player was within in the boundary of any circle on the screen each frame. This was incredibly inefficient as the collision only registered about a quarter of the time.</li></ul>
 </p>
 
-<p><h5>The learning experience:</h5>
+<p><h3>The learning experience:</h3>
 <ul><li>Leaving porting of a game to the last minute, instead of building it for the system ground up (or at the very least being aware of the system’s limitations) is not a good idea, especially when working with new tools. In the future, I should give myself more time in advance to get to know the systems I’m working with.</li>
 <li>I can afford to be more ambitious in my plans for games.</li></ul>
 </p>

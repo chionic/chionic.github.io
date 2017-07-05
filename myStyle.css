@@ -20,6 +20,9 @@ p {
 li {
 	margin: 2px 30px 30px 2px;
 }
+h3 {
+	margin: 5px 30px 30px 10px;
+}
 .box {
 	background-color: #FCF8F8;
 	margin-left: auto;
