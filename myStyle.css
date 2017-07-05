@@ -15,7 +15,7 @@ body {
 	background-color: #062148;
 }
 p {
-	margin: 10px 15px 10px 8px;
+	margin: 30px 30px 30px 30px;
 }
 
 .box {
@@ -63,7 +63,7 @@ p {
 	color: #202C36;
 	font: 100% georgia;
 	text-align: left;
-	margin: 0px 0px 0px 25px;;
+	margin: 10px 10px 10px 25px;;
 }
 .contentModuleHeader, .contentModuleHeaderAlt {
 	font: 200% georgia;
