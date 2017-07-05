@@ -17,7 +17,9 @@ body {
 p {
 	margin: 30px 30px 30px 30px;
 }
-
+li {
+	margin: 30px 30px 30px 30px;
+}
 .box {
 	background-color: #FCF8F8;
 	margin-left: auto;
