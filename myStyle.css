@@ -106,11 +106,7 @@ a:hover {
 	font: bold 90% georgia;
 }
 a:link, a:visited {
-    margin-left: 10px;
 	text-decoration: none;
     color: #009fbc;
 }
-p a:link, a: visited {
-    text-decoration: none;
-    color: #009fbc;
-}
+
