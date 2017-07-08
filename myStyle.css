@@ -25,6 +25,9 @@ li {
 h3 {
 	margin: 5px 30px 2px 30px;
 }
+h2 {
+    margin-left: 10px;
+}
 code { 
 	background-color: #CCCCCC;
     display: block;
@@ -81,6 +84,7 @@ pre {
 	font: 100% georgia;
 	text-align: left;
 	margin: 20px 10px 20px 25px;
+    padding-bottom: 15px;
 }
 .contentModuleHeader, .contentModuleHeaderAlt {
 	font: 200% georgia;
@@ -102,7 +106,11 @@ a:hover {
 	font: bold 90% georgia;
 }
 a:link, a:visited {
+    margin-left: 10px;
 	text-decoration: none;
     color: #009fbc;
 }
-
+p a:link, a: visited {
+    text-decoration: none;
+    color: #009fbc;
+}
