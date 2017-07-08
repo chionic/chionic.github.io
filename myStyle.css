@@ -1,4 +1,6 @@
 // Blue: #26487B #627EA7 #3E5E8D #153564 #062148 #A5D1E5 Orange: #BA862D #FDD28A #976714 #6D4500
+//Blue2: #00d0f6,#309cb0,#009fbc,#008ea8,#2c92ab,#006882, #004e6e, #004e6e, #00315a
+//#D6A552
 
 h1 {
     color: #FF0000;
@@ -12,7 +14,10 @@ table a img {
 }
 
 body {
-	background-color: #062148;
+	background-color: #00315a;
+}
+p {
+    margin: 0px 10px 10px 10px;
 }
 li {
 	margin: 0px 30px 0px 30px;
@@ -21,10 +26,12 @@ h3 {
 	margin: 5px 30px 2px 30px;
 }
 code { 
-	background-color: gray; color: blue;
+	background-color: #CCCCCC;
+    display: block;
 }
 pre {
-	background-color: gray; color: blue;
+	background-color: #CCCCCC;
+    display: block;
 }
 .box {
 	background-color: #FCF8F8;
@@ -38,12 +45,14 @@ pre {
 	margin-left: auto;
 	margin-right: auto;
 	height: 20%;
-	width: 90%;
+	width: 65%;
+    left: 17.5%;
 	overflow: hidden;
 }
 .headerLink {
-	width: 32.5%;
+	width: 32.6658%;
 	height: 100%;
+    z-index: 10;
 	background-color: #A5D1E5;
 	display: block;
 	font: 120% georgia;
@@ -54,6 +63,7 @@ pre {
 	top: 80%;
 	width: 100%;
 	height: 20%;
+    z-index: 10;
 }
 .nav a:link, a:visited {
 	color: #153564;
@@ -61,11 +71,11 @@ pre {
 }
 .nav a:hover {
 	color: #6D4500;
-	font: bold 130% georgia;
+	font: bold 100% georgia;
 	
 }
 .content {
-	width: 80%;
+	width: 65%;
 	background-color: #FCF8F8;
 	display: block;
 	color: #202C36;
@@ -75,21 +85,23 @@ pre {
 }
 .contentModuleHeader, .contentModuleHeaderAlt {
 	font: 200% georgia;
-	color: #153564;
-	background-color: #A5D1E5;
+	color: #000134;
+	background-color:  #309cb0;
 	padding: 4px;
+    margin: 10px 5px 0px 5px;
 	text-align: center;
+    border: 2px solid #000134;
 }
 .footer {
 	width: 100%;
 }
 a:hover {
 	text-decoration: none;
-	color: #7acedb;
-	font: bold 120% georgia;
+	color: ; 
+	font: bold 90% georgia;
 	z-index: 1000;
 }
 a:link, a:visited {
-	color: #D6A552;
+	color: #009fbc;
 	text-decoration: none;
 }
