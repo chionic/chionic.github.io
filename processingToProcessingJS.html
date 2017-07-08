@@ -42,16 +42,17 @@ For more exact information, <a href="http://processingjs.org/reference/pjs%20dir
 <li>For audio, <a href="https://github.com/Pomax/Pjs-2D-Game-Engine/blob/master/minim.js">I used minim.js by Daniel Hodgin</a>. Minim.js is a basic version of the minim library translated into javascript code. It worked very well for the sound I wanted to play in my game. To use minim.js, save the file as whatever you like then load it into your index.html file, so that it looks something like this:
 <br>
 <code>
- <html>
- <head>
-   <title>Your title here</title>
-   <script src="WhatYouCalledYourProcessingJSFile.js"></script>
-   <script src="WhatYouCalledYourMinimJSFile.js"></script>
- </head>
- <body>
-   <canvas data-processing-sources="SketchName.pde"></canvas>
- </body>
- </html>
+&lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+ &lt;head&gt;
+   &lt;title&gt;Your title here&lt;/title&gt;
+   &lt;script src="WhatYouCalledYourProcessingJSFile.js"&gt;&lt;/script&gt;
+   &lt;script src="WhatYouCalledYourMinimJSFile.js"&gt;&lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+   &lt;canvas data-processing-sources="SketchName.pde"&gt;&lt;/canvas&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;
  
  </code></li>
 <li>If you’re using minim.js for sound, you do not have to preload the sound files, unlike the graphics files. Just use the minim library like you usually would in your code and include .mp3 and .ogg versions of your sound files in the same folder as your processing sketch.</li></ul>
