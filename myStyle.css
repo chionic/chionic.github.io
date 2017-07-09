@@ -88,13 +88,16 @@ pre {
 	font: bold 100% georgia;
 }
 .content {
+    position: absolute; 
+    top: 20%; 
+    left: 15%;
 	width: 65%;
 	background-color: #FCF8F8;
 	display: block;
 	color: #202C36;
 	font: 100% georgia;
 	text-align: left;
-	margin: 20px 10px 80px 25px;
+	margin: 20px 10px 120px 25px;
     padding-bottom: 15px;
 }
 .contentModuleHeader, .contentModuleHeaderAlt {
@@ -109,10 +112,10 @@ pre {
 .footer {
 	width: 100%;
     background-color: #FCF8F8;
-    height: 50px;
+    height: 70px;
     position:absolute;
-    bottom:-10%;
-
+    bottom:-20%;
+    text-overflow: auto;
 }
 
 a:hover {
