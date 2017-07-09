@@ -38,7 +38,7 @@ pre {
     display: block;
 }
 .box {
-    height: 150px;
+    height: 180px;
     width: 300px;
 	background-color: #F0F0F0;
 	margin-left: auto;
@@ -48,7 +48,6 @@ pre {
     
 }
 .box a:link, a:visited {
-    background-color:#00d0f6;
     display: block;
     color: #00315a;
     text-align: center;
