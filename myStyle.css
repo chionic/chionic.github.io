@@ -90,7 +90,7 @@ pre {
 .content {
     position: absolute; 
     top: 20%; 
-    left: 16.5%;
+    left: 15%;
 	width: 65%;
 	background-color: #FCF8F8;
 	display: block;
@@ -114,7 +114,7 @@ pre {
     background-color: #FCF8F8;
     height: 70px;
     position:absolute;
-    bottom:-20%;
+    bottom:-85px;
     text-overflow: auto;
 }
 
