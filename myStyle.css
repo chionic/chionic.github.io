@@ -72,9 +72,7 @@ pre {
 	padding: 5px;
 	text-align: center;
 }
-.headerLink a:link, a:visited {
-    color: #00315a;
-}
+
 .nav {
     position: absolute;
     left: 5%;
@@ -83,7 +81,11 @@ pre {
 	height: 15%;
     z-index: 100;
 }
-.headerLink a:hover {
+.headerLink  a:visited {
+    text-decoration: none;
+    color: #00315a;
+}
+.headerLink a:hover, a:link{
 	color: #6D4500;
 	font: bold 100% georgia;
 }
