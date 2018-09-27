@@ -25,16 +25,16 @@
 
 </div>
 <div class="contentModuleHeader">Processing to Processing.js Graphic and Sound Files</div>
-
+<p></p>
 <p>Recently I made a game using processing and processing.js,<a href="worldTurtleDreamsPostMortem.html"> you can read the post mortem about it here</a>. It was my first time working with processing.js and using sound and graphic files in my game caused me some trouble. In case anyone else has similar problems, here is a breakdown of how I got my sound effects and custom pixel art to work with processing.js:</p>
 
-<ul><li>The first thing to know is that there is no data folder in processing.js. Instead all custom files should go in the same folder as the processing sketch.</li>
-<li>Graphics need to be preloaded into the sketch, otherwise they won’t show up. The code to do this is: 
+<ul><li>The first thing to know is that there is no data folder in processing.js. Instead all custom files should go in the same folder as the processing sketch.</li><br>
+<li>Graphics need to be preloaded into the sketch, otherwise they won’t show up. Add this line of code to the start of your sketch, changing the "example" images with the names of your images: 
 <br><pre>/* @pjs preload="example1.png,example2.png,example3.png"; */</pre>
-For more exact information, <a href="http://processingjs.org/reference/pjs%20directive/">see the documentation page on the processing.js website.</a></li>
-<li>If you’re using sprite sheets or separating images from a single preloaded image, the .get() function with a PImage array will not work for separating out the images. I separated each graphic out manually because I was a little short on time.</li>
-<li>For audio, <a href="https://github.com/Pomax/Pjs-2D-Game-Engine/blob/master/minim.js">I used minim.js by Daniel Hodgin</a>. Minim.js is a basic version of the minim library translated into javascript code. It worked very well for the sound I wanted to play in my game. To use minim.js, save the file as whatever you like then load it into your index.html file, so that it looks something like this:
-<br>
+For more exact information, <a href="http://processingjs.org/reference/pjs%20directive/">see the documentation page on the processing.js website.</a></li><br>
+<li>If you’re using sprite sheets or separating images from a single preloaded image, the .get() function with a PImage array will not work for separating out the images. I separated each graphic out manually because I was a little short on time.</li><br>
+<li>For audio, <a href="https://github.com/Pomax/Pjs-2D-Game-Engine/blob/master/minim.js">I used minim.js by Daniel Hodgin</a>. Minim.js is a basic version of the Processing Minim Library translated into javascript code. It worked very well for the sound I wanted to play in my game. To use Minim.js, save the file as whatever you like then load it into your index.html file, so that it looks something like this:
+<br><br>
 <code>
 &lt;!DOCTYPE html&gt;
 <br> &lt;html&gt;
@@ -49,7 +49,8 @@ For more exact information, <a href="http://processingjs.org/reference/pjs%20dir
 <br> &lt;/html&gt;
  
  </code></li>
-<li>If you’re using minim.js for sound, you do not have to preload the sound files, unlike the graphics files. Just use the minim library like you usually would in your code and include .mp3 and .ogg versions of your sound files in the same folder as your processing sketch.</li></ul>
+    <br>
+<li>If you’re using minim.js for sound, you do not have to preload the sound files, unlike the graphics files. Just use the minim library like you usually would in your code and include .mp3 and .ogg versions of your sound files in the same folder as your processing sketch. Having both .mp3 and .ogg files is important, as different browsers will accept different file extensions with this library.</li></ul>
 
 
 
